@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".alan"
+    android:background="@color/black"
+    tools:showIn="@layout/activity_alan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/pic"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/main"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/title"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/main"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/alan" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/pic"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:text="@string/alan"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:fontFamily="serif"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Songs:"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="one"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Faded"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="two"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="On My Way"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="three"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="three"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Beat it"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="four"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Dont Stop"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="five"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Black or White"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="six"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Leave me alone"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="50dp"
+                android:onClick="seven"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="Who is it"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="260dp"
+                    android:src="@drawable/ic_play_arrow_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

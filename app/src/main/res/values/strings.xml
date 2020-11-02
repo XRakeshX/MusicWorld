@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music World</string>
+    <string name="micheal">Michael Jackson</string>
+    <string name="justin">Justin Bieber</string>
+    <string name="alan">Alan Walker</string>
+    <string name="title_activity_micheal_jackson">micheal_jackson</string>
+    <string name="title_activity_justin">justin</string>
+    <string name="title_activity_alan">alan</string>
+    <string name="title_activity_songs">songs</string>
+</resources>
